@@ -1,5 +1,9 @@
 name: Post welcome message
 on: 
   pull_request: 
-    type: [opened]
+    types: [opened]
+jobs:
+  bulid:
+    name: Post welcom comment
+    runs-on: ubuntu-latest
     
