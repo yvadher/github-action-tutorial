@@ -1,0 +1,5 @@
+name: Post welcome message
+on: 
+  pull_request: 
+    type: [opened]
+    
